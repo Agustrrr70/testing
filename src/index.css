@@ -1,0 +1,13 @@
+/* pastikan file ini di-import di index.js */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(#3c683f, #e8f0e4);
+  /* jaga agar background menutupi seluruh tinggi saat konten pendek */
+  min-height: 100vh;
+  /* optional: agar tetap halus saat scroll */
+  background-attachment: fixed;
+}
